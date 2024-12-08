@@ -10,7 +10,7 @@ public class Main {
         students[2] = new Student("Mike", "Johnson", 22, 4, 88.0);
         students[3] = new Student("Emily", "Davis", 21, 3, 95.4);
         students[4] = new Student("Chris", "Brown", 20, 1, 89.9);
-        
+
         Student topStudent = findTopStudent(students);
         System.out.println("Top Student: " + topStudent.getFirstName() + " " + topStudent.getLastName());
     }
